@@ -7,7 +7,8 @@ public class BSTSearch {
         this.root = null;
     }
 
-    // Searches the BST for the given value
+    // Searches the BST for the given value.
+    // Implement this using iteration, not recursion.
     public boolean search(int val) {
         // REPLACE WITH YOUR CODE HERE
         return false;
@@ -40,6 +41,12 @@ public class BSTSearch {
     public static int sumDigits(int num) {
         // REPLACE WITH YOUR CODE HERE
         return -1;
+    }
+
+    // A recursive version of the search() function above.
+    public boolean searchRec(int val) {
+        // REPLACE WITH YOUR CODE HERE
+        return false;
     }
 }
 
