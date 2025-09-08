@@ -6,9 +6,10 @@ plugins {
 group 'org.athenian'
 version '1.0-SNAPSHOT'
 
-application {
-    mainClass = 'IntLinkedList'
-}
+// No main class - application plugin not needed for this assignment
+// application {
+//     mainClass = 'IntLinkedList'
+// }
 
 java {
     sourceCompatibility = 1.8
